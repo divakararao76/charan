@@ -1,10 +1,10 @@
 #include<iostream>
 using namespace std;
-long long int x=1000000;
-long long int s[1000000];
+long long int x=1000001;
+long long int s[1000001];
 void genseiver()
 {
-	for(int i=0;i<x;i++)  //s[]={1,1,1,1,...1000000 times}
+		for(int i=0;i<x;i++)  //s[]={1,1,1,1,...1000000 times}
 	s[i]=1;
 	s[0]=s[1]=0;		//s[]={0,0,1,1,1....}
 	for(int i=2;i*i<x;i++)
