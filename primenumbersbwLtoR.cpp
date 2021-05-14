@@ -30,7 +30,7 @@ int main()
       if(s[loopi]==1)
         sum=sum+loopi;
     }
-    cout<<sum;
+    cout<<sum<<endl;
   }
   
 	return 0;
