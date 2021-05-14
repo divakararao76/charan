@@ -24,7 +24,7 @@ using namespace std;
   return 0;
 }
 */
-int primecount(int n)
+/*int primecount(int n)
 {
 	int c=0;
 	for(int loopi=2;loopi<n;loopi++)
@@ -50,7 +50,8 @@ int main()
 	cin>>n;
 	cout<<primecount(n);
 }
-			   
+*/
+ 
 			   
 		   
 		   
