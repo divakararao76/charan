@@ -9,7 +9,8 @@ int main()
 	    {
              sum = sum + (num&1);
 	      num=num>>1;
-      }
+      	     }
 	     cout<<sum;
 		return 0;
 }
+
