@@ -12,7 +12,7 @@ int BinarySearch(int low,int high,int x,int arr[])
     int mid=(low+high)/2; // to find the mid value
     if(arr[mid]==x)
     {
-        return mid+1; //to return element position value
+        return 1; //element found returns 1
     }
     else if(arr[mid]<x)
     {
@@ -34,5 +34,9 @@ int main()
         cin>>arr[i];
     }
     cin>>ele;
-    cout<<BinarySearch(0,num-1,ele,arr);
+    int c=BinarySearch(0,num-1,ele,arr);
+    if(c>0)
+        cout<<"element found"<<endl;
+    else
+        cout<<"element not found"<<endl;
 }
